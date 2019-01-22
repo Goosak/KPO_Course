@@ -1,0 +1,48 @@
+{
+	"Name":"Goose",
+	"Description":"Тестовый плагин",
+	"Author":"Melnikov V.E.",
+	"Version":"1.0",
+	"Components":[
+		{
+			"Name":"",
+			"Type":"Label",
+			"Text":"Это интерфейс Тестового плагина:"
+		},
+		{
+			"Name":"CBWorks",
+			"Type":"CheckBox",
+			"Text":"Работает?"
+		},
+		{
+			"Name":"RBTest",
+			"Type":"RadioButton",
+			"Text":"Работает?",
+			"RadioGroup":"RBTest"
+		},
+		{
+			"Name":"RBTest2",
+			"Type":"RadioButton",
+			"Text":"Работает?",
+			"RadioGroup":"RBTest"
+		},
+		{
+			"Name":"CBTest",
+			"Type":"ComboBox",
+			"Items":["test1", "test2", "test3"]
+		},
+		{
+			"Name":"TBTest",
+			"Type":"TextBox",
+			"Text":"Просто тесты)"
+		},
+		{
+			"Name":"STest",
+			"Type":"Slider",
+			"Text":"Тестовая подпись",
+			"Min":0,
+			"Max":666,
+			"Step":2
+		}
+	]
+}

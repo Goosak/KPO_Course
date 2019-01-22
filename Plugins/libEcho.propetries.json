@@ -1,0 +1,22 @@
+{
+	"Name":"Эхо",
+	"Description":"Плагин, отвечающий за эффект Эхо",
+	"Author":"Melnikov V.E.",
+	"Version":"1.0",
+	"Components":[
+		
+		{
+			"Name":"SSilentQ",
+			"Type":"Slider",
+			"Text":"Коэффициент приглушения",
+			"Min":0,
+			"Max":1,
+			"Step":0.1
+		},
+		{
+			"Name":"TBWait",
+			"Type":"TextBox",
+			"Text":"Задержка(мс)"
+		}	
+	]
+}

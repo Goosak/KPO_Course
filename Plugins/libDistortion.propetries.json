@@ -1,0 +1,25 @@
+{
+	"Name":"Distortion",
+	"Description":"Плагин, отвечающий за эффект Distortion",
+	"Author":"Melnikov V.E.",
+	"Version":"1.0",
+	"Components":[
+		{
+			"Name":"SLineLevel",
+			"Type":"Slider",
+			"Text":"Пороговый уровень",
+			"Min":0,
+			"Max":1,
+			"Step":0.1
+		},
+		{
+			"Name":"SUpperLevel",
+			"Type":"Slider",
+			"Text":"Верхний уровень",
+			"Min":0,
+			"Max":1,
+			"Step":0.1
+		}
+		
+	]
+}

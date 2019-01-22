@@ -1,0 +1,42 @@
+{
+	"Name":"Фильтр Баттерворта",
+	"Description":"Плагин, отвечающий за фильтр Баттерворта",
+	"Author":"Мельников В.Е.",
+	"Version":"1.0",
+	"Components":[
+		{
+			"Name":"RBLow",
+			"Type":"RadioButton",
+			"Text":"Фильтр низких частот",
+			"RadioGroup":"RBType",
+			"Binding":["TBW1"]
+		},
+		{
+			"Name":"RBHigh",
+			"Type":"RadioButton",
+			"Text":"Фильтр высоких частот",
+			"RadioGroup":"RBType",
+			"Binding":["TBW2"]
+		},
+		{
+			"Name":"RBBand",
+			"Type":"RadioButton",
+			"Text":"Фильтр полосовой",
+			"RadioGroup":"RBType",
+			"Binding":["TBW1", "TBW2"]
+		},
+		{
+			"Name":"TBW1",
+			"Type":"TextBox",
+			"Text":"Нижняя граница",
+			
+		},
+		{
+			"Name":"TBW2",
+			"Type":"TextBox",
+			"Text":"Верхняя граница",
+			
+		}	
+		
+	]
+}
